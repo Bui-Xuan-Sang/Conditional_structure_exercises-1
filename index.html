@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[*Bài tập]Luyện tập cấu trúc điều kiện 01</title>
+    <script src="index1.js"></script>
+</head>
+<body>
+<p><b>Bài 1:</b>Nhập vào hai số a và b, và kiểm tra xem a có chia hết cho b hay không ?</p>
+<label for="a"></label><input type="text" size="15" id="a" placeholder="Nhập số a">
+<p><label for="b"></label><input type="text" size="15" id="b" placeholder="Nhập số b"></p>
+<p><input type="button" value="check" onclick="checkDiv()"></p>
+<p id="result1"><br></p>
+<hr>
+<p><b>Bài 2: </b>Nhập tuổi và in ra kết quả nếu tuổi học sinh đó không đủ điều kiện vào học lớp 10.</p>
+<label for="ageStudent"></label><input type="text" size="15" id="ageStudent" placeholder="Nhập tuổi">
+<p><input type="button" value="check" onclick="checkAge()"></p>
+<p id="result2"><br></p>
+<hr>
+<p><b>Bài 3: </b>Nhập một số nguyên bất kỳ và in kết quả ra màn hình để nói cho người dùng biết số đó là lớn hay nhỏ hơn
+    0</p>
+<label for="num">
+    <input type="text" placeholder="Nhập số nguyên" id="num" size="15">
+</label>
+<p><input type="button" value="check" onclick="checkNum()"></p>
+<p id="result3"></p>
+<hr>
+<p><b>Bài 4: </b>Nhập 3 số nguyên và tìm giá trị lớn nhất của ba số nguyên đó</p>
+<label for="num1">
+    <input type="text" id="num1" placeholder="Nhập số thứ nhất" size="15">
+</label>
+<p></p>
+<label for="num2">
+    <input type="text" id="num2" placeholder="Nhập số thứ hai" size="15">
+</label>
+<p></p>
+<label for="num3">
+    <input type="text" id="num3" placeholder="Nhập số thứ ba" size="15">
+</label>
+<p><input type="button" value="check" onclick="checkNumber()"></p>
+<p id="result4"></p>
+<hr>
+<p><b>Bài 5: </b>Xếp hạng học lực của học sinh dựa trên các điểm bài kiểm tra, điểm thi giữa kỳ, điểm thi cuối kỳ</p>
+<label for="testScore">
+    <input type="text" id="testScore" placeholder="Nhập điểm kiểm tra" size="15">
+</label>
+<label for="midTermScore">
+    <p><input type="text" id="midTermScore" placeholder="Nhập điểm giữa kì" size="15"></p>
+</label>
+<label for="finalScore">
+    <input type="text" id="finalScore" placeholder="Nhập điểm cuối kì" size="15">
+</label>
+<p><input type="button" value="check" onclick="checkScore()"></p>
+<p id="result5"></p>
+<hr>
+<p><b>Bài 6: </b>Tính hoa hồng nhận được tuỳ theo mức doanh số bán hàng</p>
+<label for="sale">
+    <input type="text" id="sale" placeholder="hàng bán" size="15">
+</label>
+<p></p>
+<label for="amount">
+    <input type="text" id="amount" placeholder="số lượng" size="15">
+</label>
+<p><input type="button" value="check" onclick="checkRose()"></p>
+<p id="result6"></p>
+<hr>
+<p><b>Bài 7: </b>Tính cước điện thoại cho một hộ gia đình với các thông số đã cho</p>
+<label for="tax">
+    <input type="text" id="tax" placeholder="thuế" size="15">
+</label>
+<p></p>
+<label for="amountNum">
+    <input type="text" id="amountNum" placeholder="Số" size="15">
+</label>
+<p><input type="button" value="check" onclick="checkPhone()"></p>
+<p id="result7"></p>
+<hr>
+</body>
+</html>
